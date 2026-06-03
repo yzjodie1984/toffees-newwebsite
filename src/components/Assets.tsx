@@ -33,7 +33,7 @@ export default function Assets() {
             </div>
             <div className="lg:w-[40%]">
               <p className="text-[13px] text-midnight/80 leading-relaxed italic border-l-2 border-brass pl-4">
-                We focus exclusively on commercial aviation — leveraging DonHerBy's established logistics network to source and facilitate trades across Asia, the Middle East, Africa, and Europe.
+                We focus on commercial aviation — leveraging DonherBy's established logistics network to source and facilitate trades across Asia, the Middle East, Africa, and Europe.
               </p>
             </div>
           </div>
