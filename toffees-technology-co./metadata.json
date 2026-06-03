@@ -1,0 +1,6 @@
+{
+  "name": "Toffees Technology Co.",
+  "description": "International Aviation Asset Trading - Asia, Middle East, Africa",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
