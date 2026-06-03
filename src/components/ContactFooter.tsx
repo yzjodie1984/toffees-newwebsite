@@ -88,7 +88,7 @@ export default function ContactFooter() {
               </div>
               <span className="font-bold tracking-tight text-lg text-midnight">TOFFEES TECHNOLOGY CO., LIMITED</span>
             </div>
-            <div className="text-[11px] md:text-[12px] font-medium opacity-80 leading-relaxed max-w-sm">
+            <div className="text-[11px] md:text-[12px] font-medium opacity-80 leading-relaxed whitespace-nowrap">
               International Aviation Asset Trading · Engines · Aircraft · Components
             </div>
           </div>
@@ -97,9 +97,6 @@ export default function ContactFooter() {
           <div className="flex flex-col gap-2 w-full lg:w-1/2 lg:text-right">
             <div className="text-[10px] uppercase tracking-wider opacity-60">
               © 2025–2026 Toffees Technology Co., Limited.<br className="hidden lg:block"/> All rights reserved.
-            </div>
-            <div className="text-[10px] font-bold uppercase tracking-wider opacity-80 mt-1">
-              Company Profile available upon request.
             </div>
           </div>
 
