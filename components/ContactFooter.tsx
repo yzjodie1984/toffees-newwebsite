@@ -77,16 +77,39 @@ export default function ContactFooter() {
         </div>
       </section>
 
-      <footer className="h-auto md:h-24 py-8 border-t border-midnight/10 bg-alabaster px-10 flex flex-col md:flex-row items-center justify-between text-midnight">
-        <div className="flex flex-wrap md:flex-nowrap gap-10">
-          <div className="space-y-1">
-            <div className="text-[9px] uppercase opacity-50 tracking-widest font-bold">Group Affiliate</div>
-            <a href="https://donherby.com" target="_blank" rel="noopener noreferrer" className="text-[11px] font-bold uppercase tracking-tight hover:text-brass transition-colors block">Donherby</a>
+      <footer className="w-full flex flex-col">
+        <div className="py-12 bg-alabaster px-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10 border-t border-midnight/10 text-midnight">
+          
+          {/* Left: Toffees wordmark + tagline */}
+          <div className="flex flex-col gap-4 w-full lg:w-1/2">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 flex items-center justify-center border-2 border-midnight">
+                <span className="text-midnight font-bold">T</span>
+              </div>
+              <span className="font-bold tracking-tight text-lg text-midnight">TOFFEES TECHNOLOGY CO., LIMITED</span>
+            </div>
+            <div className="text-[11px] md:text-[12px] font-medium opacity-80 leading-relaxed max-w-sm">
+              International Aviation Asset Trading · Engines · Aircraft · Components
+            </div>
           </div>
+
+          {/* Right: Legal */}
+          <div className="flex flex-col gap-2 w-full lg:w-1/2 lg:text-right">
+            <div className="text-[10px] uppercase tracking-wider opacity-60">
+              © 2025–2026 Toffees Technology Co., Limited.<br className="hidden lg:block"/> All rights reserved.
+            </div>
+            <div className="text-[10px] font-bold uppercase tracking-wider opacity-80 mt-1">
+              Company Profile available upon request.
+            </div>
+          </div>
+
         </div>
-        <div className="text-left md:text-right mt-8 md:mt-0 space-y-1">
-          <div className="text-[9px] uppercase opacity-50 tracking-widest font-bold">© {new Date().getFullYear()} Toffees Technology Co., Limited. All rights reserved.</div>
-          <div className="text-[9px] font-bold text-brass uppercase tracking-widest">Company Profile available upon request.</div>
+
+        {/* Bottom strip */}
+        <div className="bg-midnight text-brass text-[10px] md:text-[11px] tracking-[0.15em] uppercase py-4 flex justify-center text-center px-4 font-bold">
+          <span>
+            Toffees Technology Co., Limited — An Affiliate of <a href="https://donherby.com" target="_blank" rel="noopener noreferrer" className="text-brass hover:underline underline-offset-4 transition-all">DonHerBy</a>
+          </span>
         </div>
       </footer>
     </>

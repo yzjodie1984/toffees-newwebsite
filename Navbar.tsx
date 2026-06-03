@@ -43,7 +43,6 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8 text-[11px] uppercase tracking-[0.15em] font-semibold text-alabaster/70">
           <a href="#about" className="hover:text-brass transition-colors">About</a>
           <a href="#what-we-trade" className="hover:text-brass transition-colors">What We Trade</a>
-          <a href="#how-we-work" className="hover:text-brass transition-colors">How We Work</a>
           <a href="#why-toffees" className="hover:text-brass transition-colors">Why Toffees</a>
           <a href="#contact" className="hover:text-brass transition-colors">Contact</a>
         </div>
@@ -69,7 +68,6 @@ export default function Navbar() {
         <div className="md:hidden bg-midnight border-t border-brass/20 p-6 flex flex-col gap-4 text-alabaster">
           <a href="#about" onClick={() => setIsOpen(false)}>About</a>
           <a href="#what-we-trade" onClick={() => setIsOpen(false)}>What We Trade</a>
-          <a href="#how-we-work" onClick={() => setIsOpen(false)}>How We Work</a>
           <a href="#why-toffees" onClick={() => setIsOpen(false)}>Why Toffees</a>
           <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
           <a

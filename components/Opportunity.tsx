@@ -25,8 +25,8 @@ export default function Opportunity() {
     },
     {
       icon: <FileKey size={24} />,
-      title: "Cross-Border Transaction Experience",
-      detail: "Complex international deals require more than introductions — we have hands-on experience navigating multi-party negotiations, jurisdictional requirements, and the documentation demands of high-value cross-border transactions",
+      title: "Aviation-Focused Expertise",
+      detail: "Deep familiarity with commercial aviation asset classes, engine families, documentation standards, and the regulatory requirements of cross-border aviation trades",
     },
     {
       icon: <Globe2 size={24} />,
@@ -45,16 +45,16 @@ export default function Opportunity() {
             <div className="flex-1 space-y-1">
               <span className="text-[10px] font-bold tracking-widest opacity-60 text-midnight uppercase">OUR FOUNDATION</span>
               <h2 className="text-3xl lg:text-4xl font-bold uppercase text-midnight leading-tight max-w-xl">
-                A Decade of Moving the World's Cargo — Now Focused on International Trading
+                A Decade of Moving the World's Cargo — Now Focused on Aviation Trading
               </h2>
             </div>
             
             <div className="flex-1 space-y-4 text-midnight/80 leading-relaxed text-[13px]">
               <p>
-                Toffees is not a startup trading house. We are the international trading arm of the DonherBy Group — an organisation with over a decade of operational experience moving high-value goods across borders, managing customs compliance, coordinating multi-modal freight, and building the supplier and carrier relationships that make complex deals close.
+                We are the international trading arm of the DonherBy Group — an organisation with over a decade of operational experience moving high-value goods across borders, managing customs compliance, coordinating multi-modal freight, and building the supplier and carrier relationships that make complex deals close.
               </p>
               <p>
-                That foundation is what separates us. When we facilitate an engine trade from a European lessor to an Asian operator, source precision machinery from a Chinese manufacturer for an African industrial buyer — we don't just connect buyer and seller. We manage the entire chain behind it: documentation, compliance, freight routing, and delivery. Every trade is backed by infrastructure, not just contacts.
+                That foundation is what powers our aviation trading business. Rather than building from scratch, Toffees leverages DonHerBy's established logistics network — its carrier relationships, customs expertise, and freight infrastructure — to source, facilitate, and deliver aviation assets with a level of operational depth that pure brokers cannot match.
               </p>
             </div>
           </div>
@@ -110,76 +110,85 @@ export default function Opportunity() {
                   <ellipse cx="500" cy="250" rx="400" ry="110" />
                 </g>
 
-                {/* Arcs radiating from HK (760, 230) */}
+                {/* Arcs radiating from HK (500, 230) */}
                 <g stroke="#D4AF37" strokeWidth="1" fill="none" opacity="0.4">
                   {/* Europe */}
-                  <path d="M 760 230 Q 625 120 490 160" /> {/* Frankfurt */}
-                  <path d="M 760 230 Q 615 100 470 160" /> {/* London */}
+                  <path d="M 500 230 Q 380 120 280 160" /> {/* Frankfurt */}
+                  <path d="M 500 230 Q 360 100 250 160" /> {/* London */}
                   
                   {/* Americas */}
-                  <path d="M 760 230 Q 520 0 280 180" /> {/* NYC */}
-                  <path d="M 760 230 Q 470 -20 180 200" /> {/* LA */}
+                  <path d="M 500 230 Q 640 120 800 180" /> {/* NYC */}
+                  <path d="M 500 230 Q 600 130 700 200" /> {/* LA */}
                   
                   {/* Middle East */}
-                  <path d="M 760 230 Q 680 210 600 240" /> {/* Dubai */}
+                  <path d="M 500 230 Q 400 210 320 240" /> {/* Dubai */}
                   
                   {/* Africa */}
-                  <path d="M 760 230 Q 655 230 550 280" /> {/* Addis Ababa */}
-                  <path d="M 760 230 Q 655 240 550 300" /> {/* Nairobi */}
-                  <path d="M 760 230 Q 615 200 470 290" /> {/* Lagos */}
-                  <path d="M 760 230 Q 645 295 530 360" /> {/* Johannesburg */}
+                  <path d="M 500 230 Q 380 230 300 280" /> {/* Addis Ababa */}
+                  <path d="M 500 230 Q 380 240 300 300" /> {/* Nairobi */}
+                  <path d="M 500 230 Q 340 200 230 290" /> {/* Lagos */}
+                  <path d="M 500 230 Q 410 295 280 360" /> {/* Johannesburg */}
                   
                   {/* Asia-Pacific */}
-                  <path d="M 760 230 Q 780 220 780 200" /> {/* Shanghai */}
-                  <path d="M 760 230 Q 730 250 740 290" /> {/* Singapore */}
+                  <path d="M 500 230 Q 520 215 540 200" /> {/* Shanghai */}
+                  <path d="M 500 230 Q 495 225 490 220" /> {/* Shenzhen */}
+                  <path d="M 500 230 Q 505 195 510 160" /> {/* Beijing */}
+                  <path d="M 500 230 Q 540 205 580 180" /> {/* Tokyo */}
+                  <path d="M 500 230 Q 480 260 460 290" /> {/* Singapore */}
                 </g>
 
                 {/* Nodes */}
                 <g fill="#D4AF37">
                   {/* Hub */}
-                  <circle cx="760" cy="230" r="5" filter="url(#glow)" />
-                  <circle cx="760" cy="230" r="2.5" fill="#F9F8F6" />
+                  <circle cx="500" cy="230" r="5" filter="url(#glow)" />
+                  <circle cx="500" cy="230" r="2.5" fill="#F9F8F6" />
                   
                   {/* Sub Nodes */}
                   <g r="2.5">
-                    <circle cx="490" cy="160" r="2.5" /> {/* Frankfurt */}
-                    <circle cx="470" cy="160" r="2.5" /> {/* London */}
-                    <circle cx="280" cy="180" r="2.5" /> {/* NYC */}
-                    <circle cx="180" cy="200" r="2.5" /> {/* LA */}
-                    <circle cx="600" cy="240" r="2.5" /> {/* Dubai */}
-                    <circle cx="550" cy="280" r="2.5" /> {/* Addis Ababa */}
-                    <circle cx="550" cy="300" r="2.5" /> {/* Nairobi */}
-                    <circle cx="470" cy="290" r="2.5" /> {/* Lagos */}
-                    <circle cx="530" cy="360" r="2.5" /> {/* Johannesburg */}
-                    <circle cx="780" cy="200" r="2.5" /> {/* Shanghai */}
-                    <circle cx="740" cy="290" r="2.5" /> {/* Singapore */}
+                    <circle cx="280" cy="160" r="2.5" /> {/* Frankfurt */}
+                    <circle cx="250" cy="160" r="2.5" /> {/* London */}
+                    <circle cx="800" cy="180" r="2.5" /> {/* NYC */}
+                    <circle cx="700" cy="200" r="2.5" /> {/* LA */}
+                    <circle cx="320" cy="240" r="2.5" /> {/* Dubai */}
+                    <circle cx="300" cy="280" r="2.5" /> {/* Addis Ababa */}
+                    <circle cx="300" cy="300" r="2.5" /> {/* Nairobi */}
+                    <circle cx="230" cy="290" r="2.5" /> {/* Lagos */}
+                    <circle cx="280" cy="360" r="2.5" /> {/* Johannesburg */}
+                    <circle cx="540" cy="200" r="2.5" /> {/* Shanghai */}
+                    <circle cx="490" cy="220" r="2.5" /> {/* Shenzhen */}
+                    <circle cx="510" cy="160" r="2.5" /> {/* Beijing */}
+                    <circle cx="580" cy="180" r="2.5" /> {/* Tokyo */}
+                    <circle cx="460" cy="290" r="2.5" /> {/* Singapore */}
                   </g>
                 </g>
 
                 {/* Labels */}
                 <g fill="#F9F8F6" fontSize="11" fontFamily="Inter" className="tracking-widest opacity-90">
-                  <text x="770" y="234" fill="#D4AF37" className="font-bold">HONG KONG</text>
+                  <text x="510" y="234" fill="#D4AF37" className="font-bold">HONG KONG</text>
                   
                   {/* Europe */}
-                  <text x="500" y="160">FRANKFURT</text>
-                  <text x="460" y="156" textAnchor="end">LONDON</text>
+                  <text x="290" y="164">FRANKFURT</text>
+                  <text x="240" y="164" textAnchor="end">LONDON</text>
                   
                   {/* Americas */}
-                  <text x="270" y="174" textAnchor="end">NEW YORK</text>
-                  <text x="170" y="195" textAnchor="end">LOS ANGELES</text>
+                  <text x="810" y="184">NEW YORK</text>
+                  <text x="710" y="204">LOS ANGELES</text>
                   
                   {/* Middle East */}
-                  <text x="590" y="235" textAnchor="end">DUBAI</text>
+                  <text x="310" y="244" textAnchor="end">DUBAI</text>
                   
                   {/* Africa */}
-                  <text x="535" y="284" textAnchor="end">ADDIS ABABA</text>
-                  <text x="540" y="304" textAnchor="end">NAIROBI</text>
-                  <text x="460" y="294" textAnchor="end">LAGOS</text>
-                  <text x="520" y="364" textAnchor="end">JOHANNESBURG</text>
+                  <text x="290" y="284" textAnchor="end">ADDIS ABABA</text>
+                  <text x="290" y="304" textAnchor="end">NAIROBI</text>
+                  <text x="220" y="294" textAnchor="end">LAGOS</text>
+                  <text x="270" y="364" textAnchor="end">JOHANNESBURG</text>
 
                   {/* Asia */}
-                  <text x="788" y="204">SHANGHAI</text>
-                  <text x="750" y="305">SINGAPORE</text>
+                  <text x="550" y="204">SHANGHAI</text>
+                  <text x="485" y="218" textAnchor="end">SHENZHEN</text>
+                  <text x="520" y="164">BEIJING</text>
+                  <text x="590" y="184">TOKYO</text>
+                  <text x="470" y="294">SINGAPORE</text>
                 </g>
               </svg>
             </div>

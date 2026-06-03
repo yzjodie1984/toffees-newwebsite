@@ -2,7 +2,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Opportunity from './components/Opportunity';
 import Assets from './components/Assets';
-import Process from './components/Process';
 import WhyUs from './components/WhyUs';
 import Ticker from './components/Ticker';
 import ContactFooter from './components/ContactFooter';
@@ -15,7 +14,6 @@ export default function App() {
         <Hero />
         <Opportunity />
         <Assets />
-        <Process />
         <WhyUs />
         <Ticker />
         <ContactFooter />

@@ -14,8 +14,8 @@ export default function WhyUs() {
     },
     {
       icon: <Layers className="text-brass shrink-0" size={24} />,
-      title: 'Operational Depth Across Verticals',
-      desc: 'Aviation engines, electronics, furniture, FMCG — the same cross-border compliance expertise, documentation rigour, and freight execution applied consistently across every product category we trade'
+      title: 'Aviation-Only Focus',
+      desc: 'We do one thing: aviation asset trading. Engines, aircraft, components — sourced, traded, and delivered with specialist knowledge and logistics infrastructure behind every transaction'
     },
     {
       icon: <Award className="text-brass shrink-0" size={24} />,

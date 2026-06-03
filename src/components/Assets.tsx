@@ -1,22 +1,21 @@
-import { Plane, Factory, Armchair } from 'lucide-react';
+import { Plane, Fan, Cog } from 'lucide-react';
 
 export default function Assets() {
-  const verticals = [
+  const cards = [
     {
-      title: 'Commercial Aviation Assets',
+      title: 'Commercial Jet Engines',
+      icon: <Fan size={32} />,
+      desc: 'CFM56-7B, CFM56-5B, Trent 700, GE90-115B, CF6-80C2, V2500-A5 and beyond. Serviceable, run-out, and teardown condition. Full QEC and bare engine configurations available.'
+    },
+    {
+      title: 'Aircraft',
       icon: <Plane size={32} />,
-      desc: 'Mid-life and end-of-life commercial jet engines, aircraft, and aviation components. We source from airlines, lessors, and MROs globally and facilitate trades across Asia, the Middle East, Africa, Europe, and the Americas. CFM56, Trent 700, GE90, CF6, V2500 families and beyond.',
-      isLead: true
+      desc: 'Narrowbody and widebody airframes for passenger conversion, freighter modification, or parts-out. B737-700/800/900, A320/A321ceo, A330-200/300, B777-200ER families.'
     },
     {
-      title: 'Industrial Machinery & Machine Tools',
-      icon: <Factory size={24} />,
-      desc: 'CNC machining centres, lathes, milling machines, grinding equipment, and precision industrial machinery. We facilitate import and export of machine tools across manufacturing hubs in China, Europe, Japan, and Korea — supplying operators and industrial buyers across Asia, Africa, and the Middle East.'
-    },
-    {
-      title: 'Furniture & Interior Products',
-      icon: <Armchair size={24} />,
-      desc: 'Commercial and designer furniture — import and export across Asia, Europe, and beyond. Backed by deep sourcing relationships built over a decade of supply chain management in the furniture sector.'
+      title: 'Components & Parts',
+      icon: <Cog size={32} />,
+      desc: 'LLPs, rotables, expendables, and APUs. Traceable documentation as standard. Sourced directly from airlines, MROs, and approved lessors across the global network.'
     }
   ];
 
@@ -27,39 +26,34 @@ export default function Assets() {
           
           <div className="flex flex-col lg:flex-row gap-12 lg:items-end">
             <div className="flex-1 space-y-2">
-              <span className="text-[10px] font-bold tracking-widest opacity-60 text-midnight uppercase">OUR TRADING VERTICALS</span>
+              <span className="text-[10px] font-bold tracking-widest opacity-60 text-midnight uppercase">AVIATION ASSETS</span>
               <h2 className="text-3xl lg:text-4xl font-bold uppercase text-midnight leading-tight max-w-2xl">
-                Specialists in High-Value Assets. Experienced Across Industries.
+                Engines. Aircraft. Components. — We Source, Trade, and Deliver
               </h2>
             </div>
             <div className="lg:w-[40%]">
               <p className="text-[13px] text-midnight/80 leading-relaxed italic border-l-2 border-brass pl-4">
-                Aviation is our focus — but our trading capability spans three distinct verticals, backed by the same supply chain infrastructure and international compliance expertise.
+                We focus exclusively on commercial aviation — leveraging DonHerBy's established logistics network to source and facilitate trades across Asia, the Middle East, Africa, and Europe.
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {verticals.map((vertical, i) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {cards.map((card, i) => (
               <div 
                 key={i} 
-                className={`bg-midnight p-8 text-alabaster flex flex-col gap-4 border border-brass/20 hover:border-brass/50 transition-colors ${vertical.isLead ? 'lg:col-span-2 border-t-2 border-t-brass bg-[#0d343b] shadow-lg transform -translate-y-1' : ''}`}
+                className="bg-midnight p-8 text-alabaster flex flex-col gap-4 border border-brass/20 hover:border-brass/50 transition-colors"
               >
-                <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center justify-between mb-4">
                   <div className="text-brass">
-                    {vertical.icon}
+                    {card.icon}
                   </div>
-                  {vertical.isLead && (
-                    <span className="text-brass bg-brass/10 px-3 py-1 text-[9px] font-bold tracking-widest uppercase border border-brass/20">
-                      SPECIALIST VERTICAL
-                    </span>
-                  )}
                 </div>
-                <h3 className={`font-bold uppercase tracking-tight text-white ${vertical.isLead ? 'text-xl' : 'text-[14px]'}`}>
-                  {vertical.title}
+                <h3 className="font-bold uppercase tracking-tight text-white text-lg">
+                  {card.title}
                 </h3>
                 <p className="text-alabaster/70 leading-relaxed text-[12px]">
-                  {vertical.desc}
+                  {card.desc}
                 </p>
               </div>
             ))}

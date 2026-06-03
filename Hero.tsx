@@ -22,7 +22,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-brass text-[11px] font-bold tracking-[0.3em] uppercase"
         >
-          HONG KONG · INTERNATIONAL ASSET TRADING · EST. 2024
+          HONG KONG · INTERNATIONAL AVIATION TRADING · EST. 2024
         </motion.div>
 
         {/* H1 */}
@@ -42,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-[13px] md:text-[15px] text-alabaster/80 max-w-2xl leading-relaxed"
         >
-          Toffees Technology Co., Ltd. is an international trading company affiliated with DonherBy — a freight forwarding and logistics organisation with over a decade of cross-border operational experience. We operate as buyers, sellers, and intermediaries across commercial aviation assets, industrial machinery, and furniture — connecting markets across Europe, the Americas, Asia, the Middle East, and Africa.
+          Toffees Technology Co., Ltd. is an international aviation trading company affiliated with DonherBy — a freight forwarding and logistics organisation with over a decade of cross-border operational experience. We specialise in the sourcing and trading of commercial aviation assets — engines, aircraft, and components — leveraging our affiliate's established logistics network to serve buyers and sellers across Asia, the Middle East, Africa, and Europe.
         </motion.p>
 
         {/* CTAs */}
