@@ -35,7 +35,7 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col leading-none">
             <span className="font-bold tracking-tight text-lg text-white">TOFFEES</span>
-            <span className="text-[10px] tracking-[0.2em] text-white/80 uppercase mt-1">Technology Co., Ltd.</span>
+            <span className="text-[10px] tracking-[0.2em] text-white/80 uppercase mt-1">TECHNOLOGY CO., LIMITED</span>
           </div>
         </div>
 
